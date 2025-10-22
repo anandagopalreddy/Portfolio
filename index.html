@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ananda Gopal Reddy | Portfolio</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="#">ANANDA GOPAL REDDY MANNE</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+            <li class="nav-item"><a class="nav-link" href="#internship">Internship</a></li>
+            <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+            <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+            <li class="nav-item"><a class="nav-link" href="#achievements">Achievements</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero d-flex align-items-center justify-content-center" style="background: linear-gradient(135deg, #5c0fff, #1a8cff); min-height: 100vh;">
+    <div class="container text-center">
+    <img
+      src="profile.jpg"
+      alt="Profile Picture"
+      class="hero-img img-fluid mb-3 rounded-circle"
+      style="width: 180px; height: 180px; object-fit: cover; border: 4px solid white;"
+    />
+    <div class="text-white">
+      <p class="fw-bold mb-1">Welcome to My Portfolio</p>
+      <h1 class="fw-bold mb-2">ANANDA GOPAL REDDY MANNE</h1>
+      <p class="mb-4 fw-semibold">Aspiring Software Development Engineer | AI/ML Enthusiast | AWS Cloud Learner</p>
+      <a href="#about" class="btn btn-outline-light btn-lg px-4 rounded-pill">Explore My Journey</a>
+    </div>
+  </div>
+</section>
+
+
+    <!-- About Section -->
+    <section id="about" class="py-5 bg-light">
+      <div class="container">
+        <h2 class="text-center fw-bold text-warning mb-4">About Me</h2>
+        <div class="row justify-content-center">
+          <div class="col-md-9 text-center">
+            <p>
+              I’m a B.Tech Computer Science and Engineering student with strong skills in 
+              Python, Java, and API development using FastAPI. I have foundational knowledge 
+              in Artificial Intelligence, Machine Learning, and AWS Cloud Computing. I love 
+              solving complex problems using Data Structures and Algorithms and building 
+              efficient, real-world applications using intelligent technologies. I’m highly 
+              adaptable, a quick learner, and always eager to grow as a developer.
+            </p>
+          </div>
+        </div>
+        <div class="text-center mt-4">
+          <a
+            href="AnandGopalReddy.pdf"
+            class="btn btn-info px-4 py-2 fw-bold"
+            target="_blank"
+            >My Resume</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-5 bg-light">
+      <div class="container">
+        <h2 class="text-center fw-bold text-primary mb-4">Skills</h2>
+        <div class="row">
+          <div class="col-md-3 mb-3">
+            <div class="card text-center shadow-sm">
+              <div class="card-body">
+                <h5 class="fw-bold text-primary">Programming</h5>
+                <p>Python, Java, Data Structures & Algorithms</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 mb-3">
+            <div class="card text-center shadow-sm">
+              <div class="card-body">
+                <h5 class="fw-bold text-secondary">Frameworks & Libraries</h5>
+                <p>FastAPI, NumPy, Pandas, Matplotlib, SciPy</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 mb-3">
+            <div class="card text-center shadow-sm">
+              <div class="card-body">
+                <h5 class="fw-bold text-danger">Databases & Tools</h5>
+                <p>SQL, PostgreSQL, GitHub, VS Code, Jupyter Notebook</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 mb-3">
+            <div class="card text-center shadow-sm">
+              <div class="card-body">
+                <h5 class="fw-bold text-info">Soft Skills</h5>
+                <p>Teamwork, Adaptability, Time Management, Patience</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Internship Section -->
+    <section id="internship" class="py-5">
+      <div class="container">
+        <h2 class="text-center fw-bold text-success mb-4">Internship Experience</h2>
+        <div class="card p-4 shadow-sm">
+          <h5><strong>Software Engineering Intern | CodeTru, Hyderabad</strong> (Apr–Jul 2025)</h5>
+          <ul>
+            <li>Developed a Reminder System with dynamic snooze functionality using FastAPI & PostgreSQL.</li>
+            <li>Built secure JWT-based authentication ensuring 95% session stability.</li>
+            <li>Handled 15+ Alembic migrations and applied 100% validation using Pydantic.</li>
+            <li>Created unit tests for 7+ API endpoints ensuring reliability & maintainability.</li>
+            <li><strong>Tech Stack:</strong> FastAPI, SQLAlchemy, PostgreSQL, Alembic, JWT, Unit Testing</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+      <section id="projects" class="py-5">
+      <div class="container">
+      <h2 class="text-center fw-bold text-primary mb-4">Projects</h2>
+      <div class="row">
+
+      <!-- Reminder System -->
+      <div class="col-md-6 mb-4">
+        <div class="card p-3 shadow-sm">
+          <h5 class="card-title">Reminder System</h5>
+          <p><strong>Overview:</strong> Dynamic snooze reminder system allowing users to set, update, and snooze reminders with flexible JSON-based time inputs.</p>
+          <p><strong>Key Features:</strong> Users can create, view, update reminders; dynamic snooze functionality; automatic wait time calculation; input validation.</p>
+          <p><strong>Roles:</strong> Users, Admin</p>
+          <p><strong>User Capabilities:</strong> Set and track reminders, snooze reminders.</p>
+          <p><strong>Improvements:</strong> Achieved 95% validation accuracy and reliability of API responses.</p>
+          <p><strong>Tech Stack:</strong> FastAPI, Pydantic, PostgreSQL, SQLAlchemy, Alembic, Unit Testing</p>
+          <a href="https://github.com/anandagopalreddy/Reminder-System" target="_blank">GitHub</a>
+        </div>
+      </div>
+
+      <!-- Authentication & Authorization System -->
+      <div class="col-md-6 mb-4">
+        <div class="card p-3 shadow-sm">
+          <h5 class="card-title">Authentication & Authorization System</h5>
+          <p><strong>Overview:</strong> Secure JWT-based authentication and role management system for web applications.</p>
+          <p><strong>Key Features:</strong> User registration/login, JWT tokens, role-based access control, token refresh & expiration handling.</p>
+          <p><strong>Roles:</strong> Admin, Users</p>
+          <p><strong>Admin Capabilities:</strong> Manage roles, monitor access, revoke tokens.</p>
+          <p><strong>User Capabilities:</strong> Secure login, access authorized features.</p>
+          <p><strong>Improvements:</strong> Ensured 95% session stability and secure token storage.</p>
+          <p><strong>Tech Stack:</strong> FastAPI, JWT, SQLAlchemy, PostgreSQL, Unit Testing</p>
+          <a href="https://github.com/anandagopalreddy/Authentication-Authorisation-System" target="_blank">GitHub</a>
+        </div>
+      </div>
+
+      <!-- Travel Booking Platform -->
+      <div class="col-md-6 mb-4">
+        <div class="card p-3 shadow-sm">
+          <h5 class="card-title">Travel Booking Platform</h5>
+          <p><strong>Overview:</strong> Web application for bus and hotel bookings with a real-time reservation system.</p>
+          <p><strong>Key Features:</strong> Browse 200+ listings, book trips, track booking status, view history.</p>
+          <p><strong>Roles:</strong> Admin, Customers</p>
+          <p><strong>Admin Capabilities:</strong> Manage listings, reservations, cancellations.</p>
+          <p><strong>Customer Capabilities:</strong> Book trips, view history, cancel bookings.</p>
+          <p><strong>Improvements:</strong> Improved query efficiency by 70% for real-time reservation updates.</p>
+          <p><strong>Tech Stack:</strong> HTML, CSS, JavaScript, Flask, JDBC</p>
+        </div>
+      </div>
+
+      <!-- Handwriting Recognition System -->
+      <div class="col-md-6 mb-4">
+        <div class="card p-3 shadow-sm">
+          <h5 class="card-title">Handwriting Recognition System</h5>
+          <p><strong>Overview:</strong> AI/ML-based web application for handwriting recognition with high accuracy.</p>
+          <p><strong>Key Features:</strong> Upload/draw handwriting, predict letters/words using CNN, real-time feedback.</p>
+          <p><strong>Roles:</strong> Users</p>
+          <p><strong>User Capabilities:</strong> Recognize handwriting and view predictions.</p>
+          <p><strong>Improvements:</strong> Achieved 92% accuracy using TensorFlow CNN model.</p>
+          <p><strong>Tech Stack:</strong> Python, Flask, TensorFlow, HTML, CSS, JavaScript</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+    <!-- Education Section -->
+    <section id="education" class="py-5 bg-light">
+      <div class="container">
+        <h2 class="text-center fw-bold text-info mb-4">Education</h2>
+        <div class="row justify-content-center">
+          <div class="col-md-6 col-lg-4 mb-3">
+            <div class="card text-center p-3 shadow-sm">
+              <h5 class="card-title">Bachelor of Technology in CSE</h5>
+              <p>Annamacharya Institute of Technology & Sciences, Rajampet</p>
+              <p><strong>CGPA:</strong> 9.04 (Pursuing)</p>
+              <p><strong>Duration:</strong> 2022 - 2026</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section id="achievements" class="py-5">
+      <div class="container">
+        <h2 class="text-center fw-bold text-warning mb-4">Achievements & Certifications</h2>
+        <ul class="list-group">
+          <li class="list-group-item">🏆 1st Prize in CodeCraft Hackathon (40 teams)</li>
+          <li class="list-group-item">🥇 1st Prize in coding competitions (1st & 2nd year)</li>
+          <li class="list-group-item">🎯 Student Coordinator, Institution Innovation Council (IIC) – organized CODEZEN 2K24</li>
+          <li class="list-group-item">📜 Certifications:
+            <ul>
+              <li>NPTEL: IoT, Joy of Computing using Python</li>
+              <li>HackerRank: Python, SQL, Java</li>
+              <li>CodeChef: Linked Lists, Searching & Sorting</li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="pb-5 text-center">
+      <div class="container">
+        <h2 class="fw-bold text-primary mb-3">Contact Me</h2>
+        <p>Email: <a href="mailto:anandagopalreddym@gmail.com">anandagopalreddym@gmail.com</a></p>
+        <p>Phone: +91 7989805745</p>
+        <div class="mt-3">
+          <a href="https://linkedin.com/in/anandagopal30" target="_blank" class="btn btn-info text-white m-2"><i class="fab fa-linkedin"></i> LinkedIn</a>
+          <a href="https://github.com/anandagopalreddy" target="_blank" class="btn btn-dark m-2"><i class="fab fa-github"></i> GitHub</a>
+          <a href="https://www.hackerrank.com/certificates/ca7c9f9b9fce" target="_blank" class="btn btn-success m-2"><i class="fab fa-hackerrank"></i> HackerRank</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+      <p>© 2025 Ananda Gopal Reddy Manne | All Rights Reserved</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
