@@ -1,7 +1,6 @@
 # Portfolio Website
 
-**Live Demo:** [Click here to view the Portfolio Website](https://anandagopalreddy.github.io/Portfolio/)
-
+**Live Demo:** https://anandagopalreddy.github.io/Portfolio/
 This is a **personal portfolio website** designed and developed to showcase my **skills, projects, education, and experience**. The website features a **responsive and modern layout** with clean sections for each key area. It serves as an **online resume and project gallery** to highlight my work as a developer.
 
 ## Features
